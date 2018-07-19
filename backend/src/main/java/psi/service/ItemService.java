@@ -4,5 +4,5 @@ import psi.model.Item;
 
 public interface ItemService {
 
-	public void save(Item item);
+	void save(Item item);
 }
