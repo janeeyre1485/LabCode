@@ -16,7 +16,7 @@ public class HomeController {
 	@Autowired
 	private ItemService itemService;
 	
-	@RequestMapping(value = "/add-static", method = RequestMethod.POST)
+	@RequestMapping(value = "/add-static-item", method = RequestMethod.POST)
 	public String addItem() {
 		Item item = new StaticItem("initial text");
 		itemService.save(item);
