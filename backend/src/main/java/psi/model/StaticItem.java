@@ -4,6 +4,9 @@ public class StaticItem implements Item {
 	
 	private  String value;
 
+	public StaticItem(){
+		super();
+	}
 	public StaticItem(String value) {
 		super();
 		this.value = value;
