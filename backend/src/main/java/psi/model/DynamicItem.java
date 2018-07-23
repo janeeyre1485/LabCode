@@ -2,19 +2,23 @@ package psi.model;
 
 public class DynamicItem implements Item {
 
-	private String value;
+	private String text;
 
-	public DynamicItem(String value) {
+	public  DynamicItem(){
 		super();
-		this.value = value;
 	}
 
-	public String getValue() {
-		return value;
+	public DynamicItem(String text) {
+		super();
+		this.text = text;
 	}
 
-	public void setValue(String value) {
-		this.value = value;
+	public String getText() {
+		return text;
+	}
+
+	public void setText(String text) {
+		this.text = text;
 	}
 
 }

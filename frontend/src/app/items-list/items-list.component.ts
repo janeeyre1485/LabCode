@@ -8,16 +8,17 @@ import {ItemService} from "../shared";
   providers: [ItemService]
 })
 export class ItemsListComponent implements OnInit {
-  items: Array<any>;
+  items:any[];
 
   constructor (private itemService: ItemService) {
   }
 
   ngOnInit() {
-    this.itemService.getAll().subscribe(data => {
-      this.items = data;
-    },
-      error => console.log(error))
+  this.itemService.getAll().subscribe(data => {
+    this.items = data;
+  });
   }
+
+
 
 }

@@ -5,6 +5,9 @@ import java.util.List;
 public class ContainerItem implements Item{
 	private List<Item> items;
 
+	public ContainerItem(){
+		super();
+	}
 	
 	public ContainerItem(List<Item> items) {
 		super();
@@ -18,7 +21,11 @@ public class ContainerItem implements Item{
 	public void setItems(List<Item> items) {
 		this.items = items;
 	}
-	
-	
 
+	@Override
+	public String toString() {
+		return "ContainerItem{" +
+				"items=" + items +
+				'}';
+	}
 }

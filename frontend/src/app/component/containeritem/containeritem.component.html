@@ -1,0 +1,8 @@
+<div>
+  <h3>This is a container item</h3>
+  <div *ngFor="let item of containerItem.items">
+    <app-staticitem *ngIf="item.type == 'StaticItem'" [staticItem]="item"></app-staticitem>
+    <app-dynamicitem *ngIf="item.type == 'DynamicItem'" [dynamicItem]="item"></app-dynamicitem>
+  </div>
+  <h3>End of container</h3>
+</div>

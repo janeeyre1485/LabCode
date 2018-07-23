@@ -5,14 +5,18 @@ import {HttpClientModule} from '@angular/common/http';
 
 import {AppComponent} from './app.component';
 import {ItemsListComponent} from './items-list/items-list.component';
-import { AddItemComponent } from './add-item/add-item.component';
+import { StaticitemComponent } from './component/staticitem/staticitem.component';
+import { DynamicitemComponent } from './component/dynamicitem/dynamicitem.component';
+import { ContaineritemComponent } from './component/containeritem/containeritem.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     ItemsListComponent,
-    AddItemComponent
+    StaticitemComponent,
+    DynamicitemComponent,
+    ContaineritemComponent
   ],
   imports: [
     BrowserModule,
