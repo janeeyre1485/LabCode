@@ -4,7 +4,7 @@ import java.util.List;
 
 public class ContainerItem implements Item{
 	private List<Item> items;
-
+private String id;
 	public ContainerItem(){
 		super();
 	}
@@ -27,5 +27,14 @@ public class ContainerItem implements Item{
 		return "ContainerItem{" +
 				"items=" + items +
 				'}';
+	}
+	@Override
+	public String getId() {
+		return id;
+	}
+
+	@Override
+	public void setId(String id) {
+		this.id = id;
 	}
 }

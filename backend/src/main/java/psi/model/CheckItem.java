@@ -2,8 +2,10 @@ package psi.model;
 
 public class CheckItem implements Item {
 
+	private String id;
 	private boolean value;
 	private ContainerItem items;
+
 
 	public CheckItem(boolean value, ContainerItem items) {
 		super();
@@ -25,6 +27,15 @@ public class CheckItem implements Item {
 
 	public void setItems(ContainerItem items) {
 		this.items = items;
+	}
+	@Override
+	public String getId() {
+		return id;
+	}
+
+	@Override
+	public void setId(String id) {
+		this.id = id;
 	}
 
 }

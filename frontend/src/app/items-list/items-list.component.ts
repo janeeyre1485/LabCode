@@ -1,5 +1,6 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 import {ItemService} from "../shared";
+import {Item} from "../model/item.model";
 
 @Component({
   selector: 'app-items-list',
@@ -8,7 +9,8 @@ import {ItemService} from "../shared";
   providers: [ItemService]
 })
 export class ItemsListComponent implements OnInit {
-  items:any[];
+  @Input()
+  items:Item[];
 
   constructor (private itemService: ItemService) {
   }
@@ -17,6 +19,12 @@ export class ItemsListComponent implements OnInit {
   this.itemService.getAll().subscribe(data => {
     this.items = data;
   });
+  }
+
+  saveItems(items){
+
+      this.itemService.saveAll(items);
+
   }
 
 

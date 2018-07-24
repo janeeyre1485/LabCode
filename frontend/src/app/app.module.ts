@@ -8,6 +8,7 @@ import {ItemsListComponent} from './items-list/items-list.component';
 import { StaticitemComponent } from './component/staticitem/staticitem.component';
 import { DynamicitemComponent } from './component/dynamicitem/dynamicitem.component';
 import { ContaineritemComponent } from './component/containeritem/containeritem.component';
+import {FormsModule} from "@angular/forms";
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { ContaineritemComponent } from './component/containeritem/containeritem.
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

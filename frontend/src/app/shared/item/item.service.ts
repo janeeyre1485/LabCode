@@ -1,10 +1,11 @@
 import {Injectable} from '@angular/core';
 import {HttpClient, HttpHeaders} from "@angular/common/http";
-
+import {Item} from "../../model/item.model";
 
 const httpOptions = {
-  headers: new HttpHeaders({ 'Content-Type': 'application/json' })
-};
+  headers: new HttpHeaders({
+    'Content-Type':  'application/json'
+  })};
 
 @Injectable()
 export class ItemService {
@@ -13,7 +14,13 @@ export class ItemService {
   }
 
   getAll(){
-    return this.http.get<any[]>('http://localhost:8080/items');
+    return this.http.get<Item[]>('http://localhost:8080/items');
+  }
+
+  saveAll(items: any[]){
+    let body = JSON.stringify(items);
+    this.http.put('http://localhost:8080/save-items',body,httpOptions).subscribe();
+
   }
 
 

@@ -9,4 +9,6 @@ public interface ItemService {
     void save(Item item);
 
     List<Item> findAll();
+
+    List<Item> saveAll(List<Item> items);
 }

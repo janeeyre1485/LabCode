@@ -22,23 +22,6 @@ public class HomeController {
     @Autowired
     private ItemService itemService;
 
-
-    @RequestMapping(value = "/add-static-item", method = RequestMethod.POST)
-    public ResponseEntity<Item> createStaticItem(@RequestBody StaticItem item) {
-
-        itemService.save(item);
-
-        return new ResponseEntity<>(item, HttpStatus.CREATED);
-    }
-
-    @RequestMapping(value = "/add-dynamic-item", method = RequestMethod.POST)
-    public ResponseEntity<Item> createDynamicItem(@RequestBody DynamicItem item) {
-
-        itemService.save(item);
-
-        return new ResponseEntity<>(item, HttpStatus.CREATED);
-    }
-
     @RequestMapping(value = "/add-item", method = RequestMethod.POST)
     public ResponseEntity<Item> createItem(@RequestBody Item item) {
 
@@ -50,19 +33,22 @@ public class HomeController {
     @RequestMapping(value = "/items", method = RequestMethod.GET)
     public List<Item> getAllItems() {
 
+        System.out.println("get all items");
         return itemService.findAll();
     }
 
-    @RequestMapping(value = "/add-container-item", method = RequestMethod.POST)
-    public ResponseEntity<Item> addContainerItem(@RequestBody ContainerItem item) {
-
-//        ContainerItem item = new ContainerItem();
-//        StaticItem stitem = new StaticItem("fff","hhh");
-//        DynamicItem dmitem = new DynamicItem("ddd");
-//        item.setItems(Arrays.asList(stitem,dmitem));
-        itemService.save(item);
-
-        return new ResponseEntity<>(item, HttpStatus.CREATED);
+    @RequestMapping(value="/update-item", method = RequestMethod.POST)
+    public ResponseEntity<Item> updateItem(@RequestBody Item newItem){
+        System.out.println("get something" + ((DynamicItem)newItem).getText());
+        itemService.save(newItem);
+        return new ResponseEntity<>(newItem,HttpStatus.OK);
     }
+
+    @RequestMapping(value="/save-items", method = RequestMethod.PUT)
+    public ResponseEntity<List<Item>> updateItem(@RequestBody List<Item> items){
+        itemService.saveAll(items);
+        return new ResponseEntity<>(items,HttpStatus.OK);
+    }
+
 
 }
