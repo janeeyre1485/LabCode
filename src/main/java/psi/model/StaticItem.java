@@ -1,9 +1,16 @@
 package psi.model;
 
-import java.util.List;
-
 public class StaticItem implements Item {
-	private String value;
-	List<Item> items;
+	private  String value;
+
+	public String getValue() {
+		return value;
+	}
+
+	public void setValue(String value) {
+		this.value = value;
+	}
+	
+	
 	
 }
