@@ -2,7 +2,6 @@ import {Component, Input, OnInit} from '@angular/core';
 import {DynamicItem} from "../../model/dynamicitem.model";
 
 
-
 @Component({
   selector: 'app-dynamicitem',
   templateUrl: './dynamicitem.component.html',
@@ -14,8 +13,8 @@ export class DynamicitemComponent implements OnInit {
   dynamicItem: DynamicItem;
 
 
-
   constructor() {
+
   }
 
   ngOnInit() {

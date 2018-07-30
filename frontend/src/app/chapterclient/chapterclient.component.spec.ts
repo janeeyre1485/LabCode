@@ -1,20 +1,19 @@
 import {async, ComponentFixture, TestBed} from '@angular/core/testing';
+import { ChapterClientComponent } from './chapterclient.component';
 
-import {DynamicitemComponent} from './dynamicitem.component';
-
-describe('DynamicitemComponent', () => {
-  let component: DynamicitemComponent;
-  let fixture: ComponentFixture<DynamicitemComponent>;
+describe('ChapterClientComponent', () => {
+  let component: ChapterClientComponent;
+  let fixture: ComponentFixture<ChapterClientComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ DynamicitemComponent ]
+      declarations: [ ChapterClientComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(DynamicitemComponent);
+    fixture = TestBed.createComponent(ChapterClientComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

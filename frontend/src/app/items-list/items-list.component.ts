@@ -22,9 +22,7 @@ export class ItemsListComponent implements OnInit {
   }
 
   saveItems(items){
-
       this.itemService.saveAll(items);
-
   }
 
 

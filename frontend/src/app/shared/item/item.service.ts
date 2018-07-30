@@ -4,8 +4,9 @@ import {Item} from "../../model/item.model";
 
 const httpOptions = {
   headers: new HttpHeaders({
-    'Content-Type':  'application/json'
-  })};
+    'Content-Type': 'application/json'
+  })
+};
 
 @Injectable()
 export class ItemService {
@@ -13,13 +14,14 @@ export class ItemService {
   constructor(private  http: HttpClient) {
   }
 
-  getAll(){
+  getAll() {
     return this.http.get<Item[]>('http://localhost:8080/items');
   }
 
-  saveAll(items: any[]){
+  saveAll(items: any[]) {
     let body = JSON.stringify(items);
-    this.http.put('http://localhost:8080/save-items',body,httpOptions).subscribe();
+    console.log(body);
+    this.http.put('http://localhost:8080/save-items', body, httpOptions).subscribe();
 
   }
 

@@ -10,9 +10,12 @@ export class ContaineritemComponent implements OnInit {
 
   @Input()
   containerItem: ContainerItem;
-  constructor() { }
+
+  constructor(){}
 
   ngOnInit() {
+
   }
+
 
 }

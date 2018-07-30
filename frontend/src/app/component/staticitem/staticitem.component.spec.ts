@@ -1,6 +1,6 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { StaticitemComponent } from './staticitem.component';
+import {StaticitemComponent} from './staticitem.component';
 
 describe('StaticitemComponent', () => {
   let component: StaticitemComponent;
