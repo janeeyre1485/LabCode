@@ -10,7 +10,7 @@ import {DynamicitemComponent} from './component/dynamicitem/dynamicitem.componen
 import {ContaineritemComponent} from './component/containeritem/containeritem.component';
 import {FormsModule} from "@angular/forms";
 import { ChapterComponent } from './component/chapter/chapter.component';
-import { ChapterClientComponent } from './chapterclient/chapterclient.component';
+import { ChapterlistComponent } from './chapterlist/chapterlist.component';
 
 
 @NgModule({
@@ -21,7 +21,7 @@ import { ChapterClientComponent } from './chapterclient/chapterclient.component'
     DynamicitemComponent,
     ContaineritemComponent,
     ChapterComponent,
-    ChapterClientComponent],
+    ChapterlistComponent],
   imports: [
     BrowserModule,
     HttpClientModule,

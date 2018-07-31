@@ -1,5 +1,6 @@
 import {Component, Input, OnInit} from '@angular/core';
 import {Chapter} from "../../model/chapter.model";
+import {ChapterService} from "../../shared/chapter/chapter.service";
 
 @Component({
   selector: 'app-chapter',
@@ -11,11 +12,15 @@ export class ChapterComponent implements OnInit {
   @Input()
   chapter: Chapter;
 
-  constructor()  {
+  constructor(private chapterService: ChapterService)  {
   }
 
   ngOnInit() {
 
+  }
+
+  saveChapter(){
+    this.chapterService.save(this.chapter);
   }
 
 }

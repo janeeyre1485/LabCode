@@ -4,19 +4,20 @@ import {ChapterService} from "../shared/chapter/chapter.service";
 
 @Component({
   selector: 'app-chapterclient',
-  templateUrl: './chapterclient.component.html',
-  styleUrls: ['./chapterclient.component.css']
+  templateUrl: './chapterlist.component.html',
+  styleUrls: ['./chapterlist.component.css']
 })
-export class ChapterClientComponent implements OnInit {
+export class ChapterlistComponent implements OnInit {
 
-  chaptercomp: Chapter;
+  chapters: Chapter[];
 
   constructor(private chapterService: ChapterService) { }
 
   ngOnInit() {
-    this.chapterService.getChapter("1").subscribe(data => {
-      this.chaptercomp = new Chapter(data.id, data.title, data.items);
+    this.chapterService.getAllChapters().subscribe(data=> {
+      this.chapters = data;
     });
+
   }
 
   saveChapter(chapter: Chapter) {

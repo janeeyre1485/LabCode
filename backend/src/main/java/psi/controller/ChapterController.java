@@ -20,7 +20,8 @@ public class ChapterController {
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public List<Chapter> getChapters() {
-        return null;
+        System.out.println("HEREE");
+        return chapterService.getAllChapters();
     }
 
     @RequestMapping(value = "/{id}", method = RequestMethod.GET)
