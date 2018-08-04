@@ -18,14 +18,12 @@ export class ChapterService {
   constructor(private http: HttpClient) {
   }
 
-  getChapter(id) {
-    return this.http.get<Chapter>('http://localhost:8080/chapters/' + id, httpOptions);
-
+  getAllChapters() {
+    return this.http.get<Chapter[]>('http://localhost:8080/chapters/', httpOptions);
   }
 
   save(chapter) {
     let body = JSON.stringify(chapter);
-    console.log(body);
     this.http.put('http://localhost:8080/chapters/', body, httpOptions).subscribe();
   }
 
