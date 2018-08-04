@@ -19,8 +19,8 @@ public class ChapterController {
     private ChapterService chapterService;
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
-    public List<Chapter> getChapters() {
-        return null;
+    public ResponseEntity<List<Chapter>> getChapters() {
+        return new ResponseEntity<>(chapterService.getChapters(),HttpStatus.OK);
     }
 
     @RequestMapping(value = "/{id}", method = RequestMethod.GET)

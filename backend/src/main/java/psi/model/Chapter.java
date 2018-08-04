@@ -6,15 +6,14 @@ import java.util.List;
 public class Chapter {
     private String id;
     private String title;
-    private List<Item> items;
+    private ArrayList<Item> items;
 
     public Chapter() {
         super();
         items = new ArrayList<>();
-
     }
 
-    public Chapter(String id, String title, List<Item> items) {
+    public Chapter(String id, String title, ArrayList<Item> items) {
         this.id = id;
         this.title = title;
         this.items = items;
@@ -36,11 +35,11 @@ public class Chapter {
         this.title = title;
     }
 
-    public List<Item> getItems() {
+    public ArrayList<Item> getItems() {
         return items;
     }
 
-    public void setItems(List<Item> items) {
+    public void setItems(ArrayList<Item> items) {
         this.items = items;
     }
 

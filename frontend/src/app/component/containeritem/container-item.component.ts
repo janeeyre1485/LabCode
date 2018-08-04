@@ -2,11 +2,11 @@ import {Component, Input, OnInit} from '@angular/core';
 import {ContainerItem} from "../../model/containeritem.model";
 
 @Component({
-  selector: 'app-containeritem',
-  templateUrl: './containeritem.component.html',
-  styleUrls: ['./containeritem.component.css']
+  selector: 'container-item',
+  templateUrl: './container-item.component.html',
+  styleUrls: ['./container-item.component.css']
 })
-export class ContaineritemComponent implements OnInit {
+export class ContainerItemComponent implements OnInit {
 
   @Input()
   containerItem: ContainerItem;

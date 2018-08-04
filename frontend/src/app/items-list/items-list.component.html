@@ -1,9 +1,0 @@
-<h2>Items</h2>
-<form #chapter="ngForm" (ngSubmit) = "saveItems(items)">
-<div *ngFor="let item of items">
-  <!--<app-staticitem *ngIf="item.type == 'StaticItem'" [staticItem]="item"></app-staticitem>-->
-  <!--<app-dynamicitem *ngIf="item.type == 'DynamicItem'" [dynamicItem]="item"></app-dynamicitem>-->
-  <app-containeritem *ngIf="item.type == 'ContainerItem'" [containerItem]="item"></app-containeritem>
-</div>
-<input type="submit" value="Save all"/>
-</form>

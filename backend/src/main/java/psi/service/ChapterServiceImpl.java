@@ -5,6 +5,7 @@ import org.springframework.stereotype.Service;
 import psi.model.Chapter;
 import psi.persistence.ChapterRepository;
 
+import java.util.List;
 import java.util.NoSuchElementException;
 
 @Service
@@ -33,6 +34,11 @@ public class ChapterServiceImpl implements  ChapterService {
     public void deleteChapter(String id) {
         Chapter chapter = findChapterById(id);
         chapterRepository.delete(chapter);
+    }
+
+    @Override
+    public List<Chapter> getChapters() {
+        return chapterRepository.findAll();
     }
 
 

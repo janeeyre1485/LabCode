@@ -1,20 +1,20 @@
 import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 
-import {DynamicitemComponent} from './dynamicitem.component';
+import {StaticItemComponent} from './static-item.component';
 
-describe('DynamicitemComponent', () => {
-  let component: DynamicitemComponent;
-  let fixture: ComponentFixture<DynamicitemComponent>;
+describe('StaticItemComponent', () => {
+  let component: StaticItemComponent;
+  let fixture: ComponentFixture<StaticItemComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ DynamicitemComponent ]
+      declarations: [ StaticItemComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(DynamicitemComponent);
+    fixture = TestBed.createComponent(StaticItemComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

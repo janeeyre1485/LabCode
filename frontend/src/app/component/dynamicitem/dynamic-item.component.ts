@@ -3,11 +3,11 @@ import {DynamicItem} from "../../model/dynamicitem.model";
 
 
 @Component({
-  selector: 'app-dynamicitem',
-  templateUrl: './dynamicitem.component.html',
-  styleUrls: ['./dynamicitem.component.css']
+  selector: 'dynamic-item',
+  templateUrl: './dynamic-item.component.html',
+  styleUrls: ['./dynamic-item.component.css']
 })
-export class DynamicitemComponent implements OnInit {
+export class DynamicItemComponent implements OnInit {
 
   @Input()
   dynamicItem: DynamicItem;

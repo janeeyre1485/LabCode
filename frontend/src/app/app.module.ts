@@ -4,28 +4,28 @@ import {HttpClientModule} from '@angular/common/http';
 
 
 import {AppComponent} from './app.component';
-import {ItemsListComponent} from './items-list/items-list.component';
-import {StaticitemComponent} from './component/staticitem/staticitem.component';
-import {DynamicitemComponent} from './component/dynamicitem/dynamicitem.component';
-import {ContaineritemComponent} from './component/containeritem/containeritem.component';
+import {StaticItemComponent} from './component/staticitem/static-item.component';
+import {DynamicItemComponent} from './component/dynamicitem/dynamic-item.component';
+import {ContainerItemComponent} from './component/containeritem/container-item.component';
 import {FormsModule} from "@angular/forms";
 import { ChapterComponent } from './component/chapter/chapter.component';
-import { ChapterClientComponent } from './chapterclient/chapterclient.component';
+import { AppRoutingModule } from './/app-routing.module';
+import { ChaptersDashboardComponent } from './component/chaptersdashboard/chapters-dashboard.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    ItemsListComponent,
-    StaticitemComponent,
-    DynamicitemComponent,
-    ContaineritemComponent,
+    StaticItemComponent,
+    DynamicItemComponent,
+    ContainerItemComponent,
     ChapterComponent,
-    ChapterClientComponent],
+    ChaptersDashboardComponent],
   imports: [
     BrowserModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -5,10 +5,16 @@ export class Chapter {
   id: string;
   title: string;
 
-  constructor(id: string, title: string, items: Item[]) {
-    this.items = items;
-    this.id = id;
-    this.title = title;
+  constructor(chapter: any) {
+    // this.items = items;
+    // this.id = id;
+    // this.title = title;
+
+    this.items = chapter.items;
+    this.id = chapter.id;
+    this.title = chapter.title;
   }
+
+
 
 }
