@@ -1,13 +1,9 @@
 package psi.model;
 
-import com.fasterxml.jackson.annotation.JsonSubTypes;
-
-
 public class StaticItem implements Item {
 
     private String text;
     private String examples;
-    private String id;
 
     public StaticItem() {
         super();
@@ -34,13 +30,4 @@ public class StaticItem implements Item {
         this.examples = examples;
     }
 
-    @Override
-    public String getId() {
-        return id;
-    }
-
-    @Override
-    public void setId(String id) {
-        this.id = id;
-    }
 }

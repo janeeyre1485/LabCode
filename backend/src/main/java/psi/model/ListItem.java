@@ -3,7 +3,7 @@ package psi.model;
 public class ListItem implements Item{
 	private Integer order;
 	private ContainerItem items;
-	private String id;
+//	private String id;
 
 	public ListItem(Integer order, ContainerItem items) {
 		super();
@@ -27,13 +27,13 @@ public class ListItem implements Item{
 		this.items = items;
 	}
 
-	@Override
-	public String getId() {
-		return id;
-	}
-
-	@Override
-	public void setId(String id) {
-		this.id = id;
-	}
+//	@Override
+//	public String getId() {
+//		return id;
+//	}
+//
+//	@Override
+//	public void setId(String id) {
+//		this.id = id;
+//	}
 }

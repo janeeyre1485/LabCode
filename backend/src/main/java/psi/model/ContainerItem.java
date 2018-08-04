@@ -2,39 +2,35 @@ package psi.model;
 
 import java.util.List;
 
-public class ContainerItem implements Item{
-	private List<Item> items;
-private String id;
-	public ContainerItem(){
-		super();
-	}
-	
-	public ContainerItem(List<Item> items) {
-		super();
-		this.items = items;
-	}
+public class ContainerItem implements Item {
 
-	public List<Item> getItems() {
-		return items;
-	}
+    private List<Item> items;
 
-	public void setItems(List<Item> items) {
-		this.items = items;
-	}
+    public ContainerItem() {
+        super();
+    }
 
-	@Override
-	public String toString() {
-		return "ContainerItem{" +
-				"items=" + items +
-				'}';
-	}
-	@Override
-	public String getId() {
-		return id;
-	}
+    public ContainerItem(List<Item> items) {
+        super();
+        this.items = items;
+    }
 
-	@Override
-	public void setId(String id) {
-		this.id = id;
-	}
+    public List<Item> getItems() {
+        return items;
+    }
+
+    public void setItems(List<Item> items) {
+        this.items = items;
+    }
+
+    @Override
+    public String toString() {
+        return "ContainerItem{" +
+                "items=" + items +
+                '}';
+    }
+
+    public void addItem(Item item){
+        items.add(item);
+    }
 }
