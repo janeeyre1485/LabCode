@@ -10,8 +10,6 @@ public interface ChapterService {
 
     Chapter findChapterById(String id);
 
-    Chapter createChapter(Chapter chapter);
-
     void deleteChapter(String id);
 
     List<Chapter> getChapters();

@@ -29,7 +29,10 @@ export class ChapterService {
 
   getChapters() {
     return this.http.get<Chapter[]>('http://localhost:8080/chapters/', httpOptions);
+  }
 
+  getChapter(id:string){
+    return this.http.get<Chapter>('http://localhost:8080/chapters/' + id, httpOptions);
   }
 
 }

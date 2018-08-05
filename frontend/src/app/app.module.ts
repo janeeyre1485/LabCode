@@ -8,9 +8,12 @@ import {StaticItemComponent} from './component/staticitem/static-item.component'
 import {DynamicItemComponent} from './component/dynamicitem/dynamic-item.component';
 import {ContainerItemComponent} from './component/containeritem/container-item.component';
 import {FormsModule} from "@angular/forms";
-import { ChapterComponent } from './component/chapter/chapter.component';
-import { AppRoutingModule } from './/app-routing.module';
-import { ChaptersDashboardComponent } from './component/chaptersdashboard/chapters-dashboard.component';
+import {ChapterComponent} from './component/chapter/chapter.component';
+import {AppRoutingModule} from './/app-routing.module';
+import {ChaptersDashboardComponent} from './component/chaptersdashboard/chapters-dashboard.component';
+import {LoginComponent} from './login/login.component';
+import {AuthService} from "./service/user/auth.service";
+import {UserService} from "./service/user/user.service";
 
 
 @NgModule({
@@ -20,14 +23,15 @@ import { ChaptersDashboardComponent } from './component/chaptersdashboard/chapte
     DynamicItemComponent,
     ContainerItemComponent,
     ChapterComponent,
-    ChaptersDashboardComponent],
+    ChaptersDashboardComponent,
+    LoginComponent],
   imports: [
     BrowserModule,
     HttpClientModule,
     FormsModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [AuthService, UserService],
   bootstrap: [AppComponent]
 })
 

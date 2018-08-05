@@ -26,11 +26,6 @@ public class ChapterServiceImpl implements  ChapterService {
     }
 
     @Override
-    public Chapter createChapter(Chapter chapter) {
-        return chapterRepository.save(chapter);
-    }
-
-    @Override
     public void deleteChapter(String id) {
         Chapter chapter = findChapterById(id);
         chapterRepository.delete(chapter);

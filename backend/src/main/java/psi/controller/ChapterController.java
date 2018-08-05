@@ -18,8 +18,9 @@ public class ChapterController {
     @Autowired
     private ChapterService chapterService;
 
-    @RequestMapping(value = "/", method = RequestMethod.GET)
+    @RequestMapping(value = "", method = RequestMethod.GET)
     public ResponseEntity<List<Chapter>> getChapters() {
+        System.out.println("GET chapters");
         return new ResponseEntity<>(chapterService.getChapters(),HttpStatus.OK);
     }
 
