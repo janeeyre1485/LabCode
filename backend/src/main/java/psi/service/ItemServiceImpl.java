@@ -6,6 +6,7 @@ import psi.model.Item;
 import psi.persistence.ItemRepository;
 
 import java.util.List;
+import java.util.NoSuchElementException;
 
 @Service
 public class ItemServiceImpl implements ItemService {
@@ -19,7 +20,12 @@ public class ItemServiceImpl implements ItemService {
 		
 	}
 
-	@Override
+    @Override
+    public void delete(String id) {
+        itemRepository.delete(getItemById(id));
+    }
+
+    @Override
 	public List<Item> findAll() {
 		return itemRepository.findAll();
 	}
@@ -28,5 +34,13 @@ public class ItemServiceImpl implements ItemService {
 	public List<Item> saveAll(List<Item> items) {
 		return itemRepository.saveAll(items);
 	}
+
+	@Override
+	public Item getItemById(String id) {
+        return itemRepository.findById(id)
+                .orElseThrow(() -> new NoSuchElementException());
+
+	}
+
 
 }

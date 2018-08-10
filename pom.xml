@@ -13,8 +13,8 @@
 	</modules>
 	<packaging>pom</packaging>
 
-	<name>Labirintul Codepedentei</name>
-	<description>Iesirea din labirintul codependentei</description>
+	<name>LabCode</name>
+	<description>LabCode</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>

@@ -2,11 +2,11 @@ import {Component, Input, OnInit} from '@angular/core';
 import {StaticItem} from "../../model/staticitem.model";
 
 @Component({
-  selector: 'app-staticitem',
-  templateUrl: './staticitem.component.html',
-  styleUrls: ['./staticitem.component.css']
+  selector: 'static-item',
+  templateUrl: './static-item.component.html',
+  styleUrls: ['./static-item.component.css']
 })
-export class StaticitemComponent implements OnInit {
+export class StaticItemComponent implements OnInit {
 
   @Input()
   staticItem: StaticItem;
