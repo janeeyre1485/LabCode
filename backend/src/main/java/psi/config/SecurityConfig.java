@@ -10,6 +10,9 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.web.servlet.config.annotation.CorsRegistry;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import psi.service.UserDetailsServiceImpl;
 
 @Configuration
@@ -23,8 +26,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         System.out.println("configure");
         http
-               // .cors()
-               // .and()
+                .cors()
+                .and()
                 .csrf().disable()
                 .httpBasic()
                 .and()
@@ -32,10 +35,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers("/login").permitAll()
                 .antMatchers("/users").permitAll()
                 .antMatchers("/signup").permitAll()
-                .antMatchers("/chapters").fullyAuthenticated()
-                .and().formLogin().defaultSuccessUrl("/chapters")
-        ;
-
+                .anyRequest().authenticated();
 
     }
     @Bean
@@ -49,4 +49,5 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         .passwordEncoder(passwordEncoder());
 
     }
+
 }

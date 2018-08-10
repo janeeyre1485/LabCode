@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController
 @CrossOrigin(origins = "http://localhost:4200")
-public class RegisterController {
+public class UserController {
     @Autowired
     UserService userService;
 
@@ -22,11 +22,13 @@ public class RegisterController {
         return new ResponseEntity<>(user, HttpStatus.OK);
     }
 
-//    @RequestMapping(value = "/login", method =  RequestMethod.GET)
-//    public Principal user(Principal principal) {
-//        System.out.println("get userrrssss");
-//        return principal;
-//    }
+    @RequestMapping(value = "/login")
+    public Principal user(Principal principal) {
+        System.out.println("Get principal");
+        System.out.println(principal.getName());
+
+        return principal;
+    }
 
     @RequestMapping("/users")
     public List<User> user() {

@@ -11,7 +11,7 @@ import {FormsModule} from "@angular/forms";
 import {ChapterComponent} from './component/chapter/chapter.component';
 import {AppRoutingModule} from './/app-routing.module';
 import {ChaptersDashboardComponent} from './component/chaptersdashboard/chapters-dashboard.component';
-import {LoginComponent} from './login/login.component';
+import {LoginComponent} from './component/login/login.component';
 import {AuthService} from "./service/user/auth.service";
 import {UserService} from "./service/user/user.service";
 

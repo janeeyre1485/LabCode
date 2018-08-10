@@ -13,18 +13,18 @@ export class AuthService {
 
   public logIn(user: User) {
 
-    const httpOptions = {
+
+
+    var base64Credential: string = btoa(user.username + ':' + user.password);
+
+    var httpOptions = {
       headers: new HttpHeaders({
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json',
+        'Authorization': 'Basic ' + base64Credential
       })
     };
-    httpOptions.headers.append('Accept', 'application/json');
 
-    // creating base64 encoded String from user name and password
-    var base64Credential: string = btoa(user.username + ':' + user.password);
-    httpOptions.headers.append("Authorization", "Basic " + base64Credential);
 
-    console.log("bla bla: " + base64Credential);
     return this.http.get("http://localhost:8080/login", httpOptions);
 
   }
