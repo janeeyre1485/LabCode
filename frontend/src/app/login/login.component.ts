@@ -10,17 +10,24 @@ import {AuthService} from "../service/user/auth.service";
 })
 export class LoginComponent implements OnInit {
   user: User = new User();
+  errorMessage:string;
 
   constructor(private authService: AuthService, private router: Router) {
   }
 
   login() {
-    this.authService.logIn(this.user)
-      .subscribe(data => {
-          localStorage.setItem("token", btoa(this.user.username + ':' + this.user.password));
-          this.router.navigate(['/chapters/']);
-        }
-      )
+    this.authService.logIn(this.user).subscribe((data: Response) => {
+      if (data['name'] != null) {
+
+        console.log("Logged in user: " + data['name']);
+        this.router.navigate(["/chapters"]);
+      }
+      else{
+        this.errorMessage = "Credentials incorrect"
+      }
+    })
+    ;
+
   }
 
   ngOnInit(): void {
