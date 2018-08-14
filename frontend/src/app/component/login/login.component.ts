@@ -1,7 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {Router} from "@angular/router";
-import {User} from "../model/user";
-import {AuthService} from "../service/user/auth.service";
+import {User} from "../../model/user";
+import {AuthService} from "../../service/user/auth.service";
 
 @Component({
   selector: 'app-login',
@@ -23,7 +23,7 @@ export class LoginComponent implements OnInit {
         this.router.navigate(["/chapters"]);
       }
       else{
-        this.errorMessage = "Credentials incorrect"
+          this.errorMessage = "Credentials incorrect"
       }
     })
     ;
