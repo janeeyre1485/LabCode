@@ -13,6 +13,9 @@ import java.util.List;
 @RestController
 @RequestMapping("/chapters")
 @CrossOrigin(origins = "http://localhost:4200")
+//@CrossOrigin(origins = "http://localhost:4200", methods = {RequestMethod.POST, RequestMethod.GET, RequestMethod.OPTIONS},
+//        allowedHeaders = {"Authorization, Access-Control-Allow-Origin,X-PINGOTHER, Origin, X-Requested-With, Content-Type, Accept"},
+//        exposedHeaders = "Access-Control-Allow-Origin")
 public class ChapterController {
 
     @Autowired
@@ -21,13 +24,13 @@ public class ChapterController {
     @RequestMapping(value = "", method = RequestMethod.GET)
     public ResponseEntity<List<Chapter>> getChapters() {
         System.out.println("GET chapters");
-        return new ResponseEntity<>(chapterService.getChapters(),HttpStatus.OK);
+        return new ResponseEntity<>(chapterService.getChapters(), HttpStatus.OK);
     }
 
     @RequestMapping(value = "/{id}", method = RequestMethod.GET)
     public ResponseEntity<Chapter> getChapter(@PathVariable String id) {
         System.out.println("Calling controller wit id: " + id);
-        return new ResponseEntity<>(chapterService.findChapterById(id),HttpStatus.OK);
+        return new ResponseEntity<>(chapterService.findChapterById(id), HttpStatus.OK);
     }
 
     @RequestMapping(value = "/{id}/add-item", method = RequestMethod.POST)

@@ -11,6 +11,9 @@ import java.security.Principal;
 import java.util.List;
 
 @RestController
+//@CrossOrigin(origins = "http://localhost:4200", methods = {RequestMethod.POST, RequestMethod.GET, RequestMethod.OPTIONS},
+//        allowedHeaders = {"Authorization, Access-Control-Allow-Origin, X-PINGOTHER, Origin, X-Requested-With, Content-Type, Accept"},
+//        exposedHeaders = "Access-Control-Allow-Origin")
 @CrossOrigin(origins = "http://localhost:4200")
 public class RegisterController {
     @Autowired
@@ -22,11 +25,12 @@ public class RegisterController {
         return new ResponseEntity<>(user, HttpStatus.OK);
     }
 
-//    @RequestMapping(value = "/login", method =  RequestMethod.GET)
-//    public Principal user(Principal principal) {
-//        System.out.println("get userrrssss");
-//        return principal;
-//    }
+    @RequestMapping(value = "/login")
+    public Principal user(Principal principal) {
+        System.out.println("get userrrssss");
+        System.out.println(principal.getName());
+        return principal;
+    }
 
     @RequestMapping("/users")
     public List<User> user() {
