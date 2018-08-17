@@ -6,13 +6,10 @@ import java.util.List;
 
 public interface ChapterService {
 
-    void save(Chapter chapter);
-
-    Chapter findChapterById(String id);
-
-    void deleteChapter(String id);
-
     List<Chapter> getChapters();
 
+    void addChapter(Chapter chapter);
+
+    void deleteChapter(String id);
 
 }

@@ -21,4 +21,10 @@ public class DynamicItem implements Item {
         this.text = text;
     }
 
+    @Override
+    public String toString() {
+        return "DynamicItem{" +
+                "text='" + text + '\'' +
+                '}';
+    }
 }

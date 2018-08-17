@@ -1,18 +1,15 @@
 package psi.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.core.authority.SimpleGrantedAuthority;
-import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.core.userdetails.UserDetailsService;
-import org.springframework.security.core.userdetails.UsernameNotFoundException;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 
+import psi.model.Chapter;
 import psi.model.User;
 import psi.persistence.UserRepository;
 
+import java.util.ArrayList;
 import java.util.List;
 
 
@@ -26,13 +23,63 @@ public class UserService {
     @Autowired
     private PasswordEncoder passwordEncoder;
 
-    public User saveUser(User user){
+
+    public User saveUser(User user) {
         user.setPassword(passwordEncoder.encode(user.getPassword()));
         return userRepository.save(user);
     }
 
-    public User findFirstByUsername(String email){
+    public User updateUser(User user) {
+        return userRepository.save(user);
+    }
+
+    public User findFirstByUsername(String email) {
         return userRepository.findFirstByUsername(email);
+    }
+
+    public List<Chapter> getAllChaptersForUser(String id) {
+        User user = userRepository.findById(id).get();
+        return user.getChapters();
+    }
+
+    public User getUserByEmail(String email) {
+        return userRepository.findFirstByUsername(email);
+    }
+
+    public User findUserById(String id) {
+        return userRepository.findById(id).get();
+    }
+
+    public void deleteUser(String email) {
+//        User user = userRepository.findById(id).get();
+//        userRepository.delete(user);
+        User user = userRepository.findFirstByUsername(email);
+        userRepository.delete(user);
+    }
+
+    public void saveChapterToUser(User user, Chapter newChapter) {
+
+        List<Chapter> chapters = user.getChapters();
+
+        for (Chapter chapter : chapters) {
+            if (chapter.getId().equals(newChapter.getId())) {
+                chapters.set(chapters.indexOf(chapter), newChapter);
+            }
+        }
+        user.setChapters((ArrayList<Chapter>) chapters);
+        userRepository.save(user);
+    }
+
+    public Chapter getChapter(String userId, String chapterId) {
+        User user = userRepository.findById(userId).get();
+        List<Chapter> chapters = user.getChapters();
+
+        for (Chapter chapter : chapters) {
+            if (chapter.getId().equals(chapterId)) {
+                return chapter;
+            }
+        }
+        return null;
     }
 
     public List<User> getAllUsers(){

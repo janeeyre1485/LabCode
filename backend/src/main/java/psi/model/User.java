@@ -1,17 +1,16 @@
 package psi.model;
 
-import org.springframework.data.mongodb.core.mapping.DBRef;
-
+import org.springframework.data.annotation.Id;
 import java.util.ArrayList;
 
 public class User {
 
+    @Id
     private String id;
     private String username;
     private String password;
     private String fullName;
     private boolean enabled;
-    @DBRef
     private ArrayList<Chapter> chapters;
 
     public String getId() {
@@ -60,5 +59,9 @@ public class User {
 
     public void setChapters(ArrayList<Chapter> chapters) {
         this.chapters = chapters;
+    }
+
+    public void addChapter(Chapter chapter) {
+        this.chapters.add(chapter);
     }
 }

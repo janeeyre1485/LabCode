@@ -6,7 +6,6 @@ import psi.model.Chapter;
 import psi.persistence.ChapterRepository;
 
 import java.util.List;
-import java.util.NoSuchElementException;
 
 @Service
 public class ChapterServiceImpl implements  ChapterService {
@@ -15,25 +14,19 @@ public class ChapterServiceImpl implements  ChapterService {
     ChapterRepository chapterRepository;
 
     @Override
-    public void save(Chapter chapter) {
+    public List<Chapter> getChapters() {
+        return chapterRepository.findAll();
+    }
+
+    @Override
+    public void addChapter(Chapter chapter) {
         chapterRepository.save(chapter);
     }
 
     @Override
-    public Chapter findChapterById(String id) {
-        return chapterRepository.findById(id)
-                .orElseThrow(() -> new NoSuchElementException());
-    }
-
-    @Override
     public void deleteChapter(String id) {
-        Chapter chapter = findChapterById(id);
+        Chapter chapter = chapterRepository.findById(id).get();
         chapterRepository.delete(chapter);
-    }
-
-    @Override
-    public List<Chapter> getChapters() {
-        return chapterRepository.findAll();
     }
 
 

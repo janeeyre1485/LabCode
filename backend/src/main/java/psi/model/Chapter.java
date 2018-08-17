@@ -45,4 +45,13 @@ public class Chapter {
     public void addItem(Item item){
         this.items.add(item);
     }
+
+    @Override
+    public String toString() {
+        return "Chapter{" +
+                "id='" + id + '\'' +
+                ", title='" + title + '\'' +
+                ", items=" + items +
+                '}';
+    }
 }
