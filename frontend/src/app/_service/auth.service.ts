@@ -19,7 +19,6 @@ export class AuthService {
       var base64Credential: string = btoa(user.username + ':' + user.password);
       localStorage.setItem('token', base64Credential);
 
-      console.log(base64Credential)
       this.http.get(AppComponent.API_URL + "/login").subscribe((response: Response) => {
           if (response['username'] != null) {
             localStorage.setItem('currentUser', JSON.stringify(response));

@@ -24,7 +24,6 @@ export class ChaptersDashboardComponent implements OnInit {
       this.router.navigate(["/login"]).then();
 
     });
-    console.log(localStorage.getItem('currentUser'))
   }
 
   ngOnInit() {

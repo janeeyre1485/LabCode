@@ -24,7 +24,6 @@ public class AccountController {
     @RequestMapping(value = "/signup", method = RequestMethod.POST)
     public ResponseEntity<User> createAccount(@RequestBody User user) {
 
-        System.out.println(user.getUsername());
         user.setChapters((ArrayList<Chapter>)chapterService.getChapters());
         userService.saveUser(user);
         return new ResponseEntity<>(user, HttpStatus.OK);
