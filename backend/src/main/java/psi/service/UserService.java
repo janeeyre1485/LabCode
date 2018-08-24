@@ -29,7 +29,7 @@ public class UserService {
         return userRepository.save(user);
     }
 
-    public User updateUser(User user) {
+    public User updateUserContent(User user) {
         return userRepository.save(user);
     }
 
@@ -51,22 +51,12 @@ public class UserService {
     }
 
     public void deleteUser(String email) {
-//        User user = userRepository.findById(id).get();
-//        userRepository.delete(user);
         User user = userRepository.findFirstByUsername(email);
         userRepository.delete(user);
     }
 
     public void saveChapterToUser(User user, Chapter newChapter) {
-
-        List<Chapter> chapters = user.getChapters();
-
-        for (Chapter chapter : chapters) {
-            if (chapter.getId().equals(newChapter.getId())) {
-                chapters.set(chapters.indexOf(chapter), newChapter);
-            }
-        }
-        user.setChapters((ArrayList<Chapter>) chapters);
+        user.updateChapter(newChapter);
         userRepository.save(user);
     }
 

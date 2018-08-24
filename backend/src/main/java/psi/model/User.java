@@ -1,6 +1,8 @@
 package psi.model;
 
 import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.index.Indexed;
+
 import java.util.ArrayList;
 
 public class User {
@@ -63,5 +65,12 @@ public class User {
 
     public void addChapter(Chapter chapter) {
         this.chapters.add(chapter);
+    }
+
+    public void updateChapter(Chapter newChapter) {
+        chapters.stream()
+                .filter(chapter -> chapter.getId().equals(newChapter.getId()))
+                .findAny()
+                .ifPresent(chapter -> chapters.set(chapters.indexOf(chapter), newChapter));
     }
 }

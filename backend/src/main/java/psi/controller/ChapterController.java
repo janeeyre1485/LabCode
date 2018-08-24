@@ -20,7 +20,8 @@ public class ChapterController {
     }
 
     @RequestMapping(value = "/{id}", method = RequestMethod.DELETE)
-    public void deleteChapter(@PathVariable String id) {
-        chapterService.deleteChapter(id);
+    public ResponseEntity<Chapter> deleteChapter(@PathVariable String id) {
+            chapterService.deleteChapter(id);
+            return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }
 }

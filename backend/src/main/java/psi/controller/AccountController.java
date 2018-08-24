@@ -23,16 +23,20 @@ public class AccountController {
 
     @RequestMapping(value = "/signup", method = RequestMethod.POST)
     public ResponseEntity<User> createAccount(@RequestBody User user) {
-
         user.setChapters((ArrayList<Chapter>)chapterService.getChapters());
         userService.saveUser(user);
         return new ResponseEntity<>(user, HttpStatus.OK);
     }
 
+    @RequestMapping(value = "/delete", method = RequestMethod.DELETE)
+    public ResponseEntity<User> deleteAccount(@RequestBody String email) {
+        userService.deleteUser(email);
+        return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+    }
+
     @RequestMapping(value = "/login", method = RequestMethod.GET)
     public User doLogin(Principal principal) {
         User currentUser = userService.getUserByEmail(principal.getName());
-
         return currentUser;
     }
 
