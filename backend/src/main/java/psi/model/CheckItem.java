@@ -1,5 +1,7 @@
 package psi.model;
 
+import java.util.Objects;
+
 public class CheckItem implements Item {
 
 	private boolean value;
@@ -28,5 +30,17 @@ public class CheckItem implements Item {
 		this.items = items;
 	}
 
+	@Override
+	public boolean equals(Object o) {
+		if (this == o) return true;
+		if (o == null || getClass() != o.getClass()) return false;
+		CheckItem checkItem = (CheckItem) o;
+		return value == checkItem.value &&
+				Objects.equals(items, checkItem.items);
+	}
 
+	@Override
+	public int hashCode() {
+		return Objects.hash(value, items);
+	}
 }

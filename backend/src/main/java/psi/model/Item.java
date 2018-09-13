@@ -4,7 +4,12 @@ import com.fasterxml.jackson.annotation.JsonSubTypes;
 import com.fasterxml.jackson.annotation.JsonTypeInfo;
 
 @JsonTypeInfo(use = JsonTypeInfo.Id.NAME, property = "type")
-@JsonSubTypes({@JsonSubTypes.Type(value = ContainerItem.class, name = "ContainerItem"), @JsonSubTypes.Type(value = StaticItem.class, name = "StaticItem"), @JsonSubTypes.Type(value = DynamicItem.class, name = "DynamicItem")})
+@JsonSubTypes({@JsonSubTypes.Type(value = ContainerItem.class, name = "ContainerItem"),
+                @JsonSubTypes.Type(value = StaticItem.class, name = "StaticItem"),
+                @JsonSubTypes.Type(value = DynamicItem.class, name = "DynamicItem"),
+                @JsonSubTypes.Type(value = CheckItem.class, name = "CheckItem")})
 public interface Item {
+
+
 
 }

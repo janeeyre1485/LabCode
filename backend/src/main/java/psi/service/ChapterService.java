@@ -12,4 +12,10 @@ public interface ChapterService {
 
     void deleteChapter(String id);
 
+    Chapter getChapterById(String id);
+
+    void saveChapter(Chapter chapter);
+
+
+
 }
