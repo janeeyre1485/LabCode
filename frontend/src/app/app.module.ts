@@ -17,6 +17,8 @@ import {HomeComponent} from './components/home/home.component';
 import {AuthGuard} from "./_guards/auth.guard";
 import {AuthInterceptor} from "./_service/auth.interceptor";
 import { RegistrationComponent } from './components/auth/registration/registration.component';
+import { CheckItemComponent } from './components/content/checkitem/check-item.component';
+import { ListItemComponent } from './components/content/list-item/list-item.component';
 
 
 @NgModule({
@@ -29,7 +31,9 @@ import { RegistrationComponent } from './components/auth/registration/registrati
     ChaptersDashboardComponent,
     LoginComponent,
     HomeComponent,
-    RegistrationComponent],
+    RegistrationComponent,
+    CheckItemComponent,
+    ListItemComponent],
   imports: [
     BrowserModule,
     HttpClientModule,
