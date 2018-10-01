@@ -1,13 +1,16 @@
 <p>{{username}}</p>
-<div *ngIf="chapter != undefined">
+<div *ngIf="chapter != undefined" class="container">
   <form #chapterForm="ngForm" (ngSubmit)="save(chapter)">
     <h2>{{chapter.title}}</h2>
     <div *ngFor="let item of chapter.items">
       <static-item *ngIf="item.type == 'StaticItem'" [staticItem]="item"></static-item>
       <dynamic-item *ngIf="item.type == 'DynamicItem'" [dynamicItem]="item"></dynamic-item>
       <container-item *ngIf="item.type == 'ContainerItem'" [containerItem]="item"></container-item>
+      <check-item *ngIf="item.type == 'CheckItem'" [checkItem]="item"></check-item>
+      <list-item *ngIf="item.type == 'ListItem'" [listItem]="item"></list-item>
     </div>
-    <input type="submit" value="Save"/>
+
+    <input type="submit" value="Save" class="btn btn-primary"/>
   </form>
   <a routerLink="/chapters">To the dashboard</a>
 </div>

@@ -1,0 +1,22 @@
+.single-line {
+  height: 2em;
+  width: 50%;
+  resize: none;
+  outline: none;
+}
+
+.multi-line {
+  height: 10em;
+  width: 50%;
+  resize: none;
+  outline: none;
+}
+
+.single-char {
+  height: 2em;
+  width: 2em;
+  resize: none;
+  outline: none;
+}
+
+

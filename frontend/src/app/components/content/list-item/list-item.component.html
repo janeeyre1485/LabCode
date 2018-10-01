@@ -1,5 +1,5 @@
-<div *ngFor="let item of listItem.items; let i=index">
-  <p>{{i+1}}</p>
+<div *ngFor="let item of listItem.items; let i=index" class="d-inline">
+  <label>{{i+1}}</label>
   <static-item *ngIf="item.type == 'StaticItem'" [staticItem]="item"></static-item>
   <dynamic-item *ngIf="item.type == 'DynamicItem'" [dynamicItem]="item"></dynamic-item>
   <container-item *ngIf="item.type == 'ContainerItem'" [containerItem]="item"></container-item>
