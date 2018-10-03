@@ -2,7 +2,6 @@ package psi.model;
 
 public class DynamicItem implements Item {
 
-    private String id;
     private String text;
 
     public DynamicItem() {
@@ -23,12 +22,9 @@ public class DynamicItem implements Item {
     }
 
     @Override
-    public String getId() {
-        return id;
-    }
-
-    @Override
-    public void setId(String id) {
-        this.id = id;
+    public String toString() {
+        return "DynamicItem{" +
+                "text='" + text + '\'' +
+                '}';
     }
 }
