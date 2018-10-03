@@ -4,6 +4,7 @@ import java.util.Objects;
 
 public class StaticItem implements Item {
 
+    private String style;
     private String text;
     private String examples;
 
@@ -45,5 +46,15 @@ public class StaticItem implements Item {
     public int hashCode() {
 
         return Objects.hash(text, examples);
+    }
+
+    @Override
+    public String getStyle() {
+        return style;
+    }
+
+    @Override
+    public void setStyle(String style) {
+        this.style = style;
     }
 }

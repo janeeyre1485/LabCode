@@ -4,6 +4,7 @@ import java.util.Objects;
 
 public class DynamicItem implements Item {
 
+    private String style;
     private String text;
 
     public DynamicItem() {
@@ -41,5 +42,15 @@ public class DynamicItem implements Item {
     @Override
     public int hashCode() {
         return Objects.hash(text);
+    }
+
+    @Override
+    public String getStyle() {
+        return style;
+    }
+
+    @Override
+    public void setStyle(String style) {
+        this.style = style;
     }
 }

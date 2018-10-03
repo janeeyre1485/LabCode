@@ -5,12 +5,11 @@ import com.fasterxml.jackson.annotation.JsonTypeInfo;
 
 @JsonTypeInfo(use = JsonTypeInfo.Id.NAME, property = "type")
 @JsonSubTypes({@JsonSubTypes.Type(value = ContainerItem.class, name = "ContainerItem"),
-                @JsonSubTypes.Type(value = StaticItem.class, name = "StaticItem"),
-                @JsonSubTypes.Type(value = DynamicItem.class, name = "DynamicItem"),
-                @JsonSubTypes.Type(value = CheckItem.class, name = "CheckItem"),
-                @JsonSubTypes.Type(value = ListItem.class, name = "ListItem")})
+        @JsonSubTypes.Type(value = StaticItem.class, name = "StaticItem"),
+        @JsonSubTypes.Type(value = DynamicItem.class, name = "DynamicItem"),
+        @JsonSubTypes.Type(value = CheckItem.class, name = "CheckItem"),
+        @JsonSubTypes.Type(value = ListItem.class, name = "ListItem")})
 public interface Item {
-
-
-
+    String getStyle();
+    void setStyle(String style);
 }

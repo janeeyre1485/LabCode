@@ -5,6 +5,7 @@ import java.util.Objects;
 
 public class ContainerItem implements Item {
 
+    private String style;
     private List<Item> items;
 
     public ContainerItem() {
@@ -47,5 +48,15 @@ public class ContainerItem implements Item {
     public int hashCode() {
 
         return Objects.hash(items);
+    }
+
+    @Override
+    public String getStyle() {
+        return style;
+    }
+
+    @Override
+    public void setStyle(String style) {
+        this.style = style;
     }
 }

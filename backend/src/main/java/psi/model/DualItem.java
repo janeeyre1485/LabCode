@@ -2,6 +2,7 @@ package psi.model;
 
 public class DualItem implements Item {
 
+	private String style;
 	private String value;
 	private String option1;
 	private String option2;
@@ -47,4 +48,13 @@ public class DualItem implements Item {
 		this.items = items;
 	}
 
+	@Override
+	public String getStyle() {
+		return style;
+	}
+
+	@Override
+	public void setStyle(String style) {
+		this.style = style;
+	}
 }

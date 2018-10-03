@@ -4,9 +4,9 @@ import java.util.Objects;
 
 public class CheckItem implements Item {
 
+	private String style;
 	private boolean value;
 	private ContainerItem items;
-
 
 	public CheckItem(boolean value, ContainerItem items) {
 		super();
@@ -42,5 +42,15 @@ public class CheckItem implements Item {
 	@Override
 	public int hashCode() {
 		return Objects.hash(value, items);
+	}
+
+	@Override
+	public String getStyle() {
+		return style;
+	}
+
+	@Override
+	public void setStyle(String style) {
+		this.style = style;
 	}
 }

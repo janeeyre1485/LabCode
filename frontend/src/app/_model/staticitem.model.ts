@@ -2,6 +2,7 @@ import {Item} from "./item.model";
 
 export class StaticItem implements Item{
 
+  style: string;
   text:string;
   examples: string;
   type: string;

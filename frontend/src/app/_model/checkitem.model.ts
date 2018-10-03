@@ -2,6 +2,7 @@ import {ContainerItem} from "./containeritem.model";
 
 export class CheckItem {
 
+  style: string;
   value: boolean = true;
   items: ContainerItem;
 
