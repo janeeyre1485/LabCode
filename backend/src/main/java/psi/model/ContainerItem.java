@@ -1,6 +1,7 @@
 package psi.model;
 
 import java.util.List;
+import java.util.Objects;
 
 public class ContainerItem implements Item {
 
@@ -32,5 +33,19 @@ public class ContainerItem implements Item {
 
     public void addItem(Item item){
         items.add(item);
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        ContainerItem that = (ContainerItem) o;
+        return this.items.containsAll(that.items);
+    }
+
+    @Override
+    public int hashCode() {
+
+        return Objects.hash(items);
     }
 }

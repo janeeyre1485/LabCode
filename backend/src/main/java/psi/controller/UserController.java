@@ -33,7 +33,6 @@ public class UserController {
         User user = userService.findUserById(userId);
         userService.saveChapterToUser(user, chapter);
         return new ResponseEntity<>(chapter, HttpStatus.OK);
-
     }
 
     @RequestMapping(value = "/{username}", method = RequestMethod.DELETE)

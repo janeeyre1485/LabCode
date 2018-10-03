@@ -29,5 +29,15 @@ public class ChapterServiceImpl implements  ChapterService {
         chapterRepository.delete(chapter);
     }
 
+    @Override
+    public Chapter getChapterById(String id) {
+        return chapterRepository.findById(id).get();
+    }
+
+    @Override
+    public void saveChapter(Chapter chapter) {
+        chapterRepository.save(chapter);
+    }
+
 
 }

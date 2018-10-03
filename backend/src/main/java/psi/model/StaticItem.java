@@ -1,5 +1,7 @@
 package psi.model;
 
+import java.util.Objects;
+
 public class StaticItem implements Item {
 
     private String text;
@@ -30,4 +32,18 @@ public class StaticItem implements Item {
         this.examples = examples;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        StaticItem that = (StaticItem) o;
+        return Objects.equals(text, that.text) &&
+                Objects.equals(examples, that.examples);
+    }
+
+    @Override
+    public int hashCode() {
+
+        return Objects.hash(text, examples);
+    }
 }

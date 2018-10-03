@@ -46,6 +46,10 @@ public class Chapter {
         this.items.add(item);
     }
 
+    public void removeItem(Item item){
+        this.items.remove(item);
+    }
+
     @Override
     public String toString() {
         return "Chapter{" +
