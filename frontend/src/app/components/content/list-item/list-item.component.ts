@@ -10,6 +10,7 @@ export class ListItemComponent implements OnInit {
 
   @Input()
   listItem: ListItem;
+
   constructor() { }
 
   ngOnInit() {

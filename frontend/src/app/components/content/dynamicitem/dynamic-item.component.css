@@ -1,22 +1,27 @@
 .single-line {
-  height: 2em;
-  width: 50%;
+  height:2em;
+  width: 250px;
+  resize: none;
+  outline: none;
+}
+
+.single-char {
+  height:2em;
+  width: 1em;
   resize: none;
   outline: none;
 }
 
 .multi-line {
   height: 10em;
-  width: 50%;
+  width: 100%;
   resize: none;
   outline: none;
 }
 
-.single-char {
-  height: 2em;
-  width: 2em;
-  resize: none;
-  outline: none;
+.dynamic-margins{
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 

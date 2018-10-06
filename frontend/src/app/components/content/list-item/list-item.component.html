@@ -1,7 +1,8 @@
-<div *ngFor="let item of listItem.items; let i=index" class="d-inline">
-  <label>{{i+1}}</label>
+<ol *ngFor="let item of listItem.items; let i=index" class="{{listItem.style}}">
+  <li value="{{i+1}}">
   <static-item *ngIf="item.type == 'StaticItem'" [staticItem]="item"></static-item>
   <dynamic-item *ngIf="item.type == 'DynamicItem'" [dynamicItem]="item"></dynamic-item>
   <container-item *ngIf="item.type == 'ContainerItem'" [containerItem]="item"></container-item>
   <check-item *ngIf="item.type == 'CheckItem'" [checkItem]="item"></check-item>
-</div>
+  </li>
+</ol>

@@ -1,8 +1,7 @@
-<!--<div #parent>-->
-  <div *ngFor="let item of containerItem.items" class={{containerItem.style}}>
-    <static-item *ngIf="item.type == 'StaticItem'" [staticItem]="item"></static-item>
-    <dynamic-item *ngIf="item.type == 'DynamicItem'" [dynamicItem]="item"></dynamic-item>
-    <container-item *ngIf="item.type == 'ContainerItem'" [containerItem]="item"></container-item>
-    <check-item *ngIf="item.type == 'CheckItem'" [checkItem]="item"></check-item>
-  </div>
-<!--</div>-->
+<div *ngFor="let item of containerItem.items" class="{{containerItem.style}}">
+  <static-item *ngIf="item.type == 'StaticItem'" [staticItem]="item"></static-item>
+  <dynamic-item *ngIf="item.type == 'DynamicItem'" [dynamicItem]="item"></dynamic-item>
+  <container-item *ngIf="item.type == 'ContainerItem'" [containerItem]="item"></container-item>
+  <check-item *ngIf="item.type == 'CheckItem'" [checkItem]="item"></check-item>
+</div>
+

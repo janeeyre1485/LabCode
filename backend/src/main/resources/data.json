@@ -1,0 +1,1404 @@
+[
+  {
+    "id": "14",
+    "title": "Capitolul paisprezece",
+    "items": [
+      {
+        "type": "StaticItem",
+        "style": "h4",
+        "text": "O nouă imagine de sine",
+        "examples": null
+      },
+      {
+        "type": "StaticItem",
+        "style": null,
+        "text": "Dacă ai crescut într-un cămin cu probleme, este sigur că porţi cu tine o serie de mesaje negative, distorsionate. Aceste mesaje revin în mintea ta, iar şi iar, controlându-ţi viaţa şi deformându-ţi modul de a înţelege lucrurile. în cazul unei persoane cu grave tulburări de codependenţă, mesajele interioare negative sunt atât de nocive şi puternice, încât simplul gând că \"am voie să trăiesc\" poate fi o revelaţie binevenită.",
+        "examples": null
+      },
+      {
+        "type": "ContainerItem",
+        "style": "inline-elem",
+        "items": [
+          {
+            "type": "StaticItem",
+            "style": "normal",
+            "text": "Jennifer, soţia şi mama perfecţionistă din",
+            "examples": null
+          },
+          {
+            "type": "StaticItem",
+            "style": "bold",
+            "text": " Capitolul 1",
+            "examples": null
+          },
+          {
+            "type": "StaticItem",
+            "style": "normal",
+            "text": ", purta cu ea următoarele mesaje negative:",
+            "examples": null
+          }
+        ]
+      },
+      {
+        "type": "StaticItem",
+        "style": "normal",
+        "text": "- contez ca om numai dacă fac ceva pentru alţii;",
+        "examples": null
+      },
+      {
+        "type": "StaticItem",
+        "style": null,
+        "text": "- dacă continuu să fug de colo-colo, nu trebuie să mă confrunt cu ideea că, de fapt, sunt un om fără valoare;",
+        "examples": null
+      },
+      {
+        "type": "StaticItem",
+        "style": "normal",
+        "text": "- nu-i pot lăsa pe ceilalţi să vadă cât de rea sunt eu în realitate;",
+        "examples": null
+      },
+      {
+        "type": "StaticItem",
+        "style": "normal",
+        "text": "- încerc să fac viaţa copiilor mei mai bună decât a mea, dar nu cred că şi reuşesc.",
+        "examples": null
+      },
+      {
+        "type": "StaticItem",
+        "style": "normal",
+        "text": "Ca parte a tratamentului ei, Jennifer a trebuit să identifice aceste mesaje negative şi să înveţe să pună în locul lor gânduri noi, pozitive, de genul:",
+        "examples": null
+      },
+      {
+        "type": "StaticItem",
+        "style": "normal",
+        "text": "- valoarea mea ca om nu se bazează pe ceea ce fac;",
+        "examples": null
+      },
+      {
+        "type": "StaticItem",
+        "style": "normal",
+        "text": "- pot să mă accept pe mine însămi aşa cum sunt în realitate şi să mă obişnuiesc cu ideea că am şi părţi bune, şi părţi rele;",
+        "examples": null
+      },
+      {
+        "type": "StaticItem",
+        "style": "normal",
+        "text": "- şi alţii pot să-mi cunoască greşelile, şi totuşi să mă accepte;",
+        "examples": null
+      },
+      {
+        "type": "StaticItem",
+        "style": "normal",
+        "text": "- voi face tot ce pot pentru a fi o mamă bună, lăsând restul în seama lui Dumnezeu.",
+        "examples": null
+      },
+      {
+        "type": "StaticItem",
+        "style": "normal",
+        "text": "Etapele 1 -5 ale procesului de vindecare te-au pus în contact, poate pentru prima oară, cu sentimentele tale. Exerciţiile din carte ţi-au oferit ocazia să te cureţi şi să te întăreşti. Acum, în etapele 6-10, ne vom strădui să eliminăm şi mai multe toxine nesănătoase din organismul tău, apoi vom umple golul rămas după înlăturarea gândurilor negative şi vătămătoare. Dacă locul rămâne gol, vor pătrunde cu siguranţă gânduri şi atitudini negative, pentru că e foarte greu să te dezbari de vechile obiceiuri. Cu alte cuvinte, a sosit clipa ca bătrânul lup să-şi schimbe şi năravul. Spune \"bun venit\" noii tale personalităţi!",
+        "examples": null
+      },
+      {
+        "type": "StaticItem",
+        "style": "normal",
+        "text": "Citeşte lista de mai jos şi încercuieşte afirmaţiile care ţi se potrivesc",
+        "examples": null
+      },
+      {
+        "type": "ContainerItem",
+        "style": null,
+        "items": [
+          {
+            "type": "CheckItem",
+            "style": null,
+            "value": false,
+            "items": {
+              "type": "ContainerItem",
+              "style": "inline-elem",
+              "items": [
+                {
+                  "type": "StaticItem",
+                  "style": null,
+                  "text": "nu sunt iubit;",
+                  "examples": null
+                }
+              ]
+            }
+          },
+          {
+            "type": "CheckItem",
+            "style": null,
+            "value": false,
+            "items": {
+              "type": "ContainerItem",
+              "style": "inline-elem",
+              "items": [
+                {
+                  "type": "StaticItem",
+                  "style": null,
+                  "text": "nu sunt demn de iubire, nici chiar în ochii lui Dumnezeu;",
+                  "examples": null
+                }
+              ]
+            }
+          },
+          {
+            "type": "CheckItem",
+            "style": null,
+            "value": false,
+            "items": {
+              "type": "ContainerItem",
+              "style": "inline-elem",
+              "items": [
+                {
+                  "type": "StaticItem",
+                  "style": null,
+                  "text": "sunt răspunzător pentru rănile şi suferinţele tuturor;",
+                  "examples": null
+                }
+              ]
+            }
+          },
+          {
+            "type": "CheckItem",
+            "style": null,
+            "value": false,
+            "items": {
+              "type": "ContainerItem",
+              "style": "inline-elem",
+              "items": [
+                {
+                  "type": "StaticItem",
+                  "style": null,
+                  "text": "nu sunt bun de nimic, aşa că trebuie să-mi câştig locul atât în familia mea, cât şi în marea familie a lui Dumnezeu;",
+                  "examples": null
+                }
+              ]
+            }
+          },
+          {
+            "type": "CheckItem",
+            "style": null,
+            "value": false,
+            "items": {
+              "type": "ContainerItem",
+              "style": "inline-elem",
+              "items": [
+                {
+                  "type": "StaticItem",
+                  "style": null,
+                  "text": "nu merit succesul pe care îl am.",
+                  "examples": null
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "StaticItem",
+        "style": "h5",
+        "text": "Familiarizarea cu vechile percepţii",
+        "examples": null
+      },
+      {
+        "type": "StaticItem",
+        "style": null,
+        "text": "Pentru a elimina vechile mesaje nocive, trebuie mai întâi să-ţi dai seama exact care sunt acestea.",
+        "examples": null
+      },
+      {
+        "type": "ContainerItem",
+        "style": null,
+        "items": [
+          {
+            "type": "StaticItem",
+            "style": null,
+            "text": "Câteva dintre percepţiile mele negative despre viaţă, în general, sunt",
+            "examples": "(de exemplu: pur şi simplu, nu pot fi fericit: sânt sigur că mie mi se întâmplă întotdeauna ce-i mai rău)"
+          },
+          {
+            "type": "DynamicItem",
+            "style": "multi-line",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "ContainerItem",
+        "style": null,
+        "items": [
+          {
+            "type": "StaticItem",
+            "style": null,
+            "text": "Câteva dintre percepţiile mele negative despre ceilalţi oameni sunt ",
+            "examples": "(de exemplu: oamenii sunt mereu porniţi împotriva mea; cea mai bună metodă pentru a evita suferinţa e să nu ai relaţii apropiate)"
+          },
+          {
+            "type": "DynamicItem",
+            "style": "multi-line",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "ContainerItem",
+        "style": null,
+        "items": [
+          {
+            "type": "StaticItem",
+            "style": null,
+            "text": "Câteva dintre percepţiile mele negative despre personalitatea, talentele şi aspectul meu fizic sunt ",
+            "examples": "(de exemplu, fiindcă nu sunt un om atrăgător, nimeni nu mă place; părerile mele nu contează)"
+          },
+          {
+            "type": "DynamicItem",
+            "style": "multi-line",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "StaticItem",
+        "style": null,
+        "text": "Completează următoarele afirmaţii astfel, încât ele să ilustreze vechile tale percepţii. Aminteşte-ţi că trebuie să fii foarte sincer cu tine însuţi. Majoritatea oamenilor nutresc anumite convingeri generale, care pot sau nu să fie adevărate.",
+        "examples": null
+      },
+      {
+        "type": "ContainerItem",
+        "style": "inline-elem element-margins",
+        "items": [
+          {
+            "type": "StaticItem",
+            "style": null,
+            "text": "Toate femeile sunt",
+            "examples": null
+          },
+          {
+            "type": "DynamicItem",
+            "style": "single-line element-vertical-align",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "ContainerItem",
+        "style": "inline-elem element-margins",
+        "items": [
+          {
+            "type": "StaticItem",
+            "style": null,
+            "text": "Toţi bărbaţii sunt",
+            "examples": null
+          },
+          {
+            "type": "DynamicItem",
+            "style": "single-line element-vertical-align",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "ContainerItem",
+        "style": "inline-elem element-margins",
+        "items": [
+          {
+            "type": "StaticItem",
+            "style": null,
+            "text": "Dumnezeu este",
+            "examples": null
+          },
+          {
+            "type": "DynamicItem",
+            "style": "single-line element-vertical-align",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "ContainerItem",
+        "style": "inline-elem element-margins",
+        "items": [
+          {
+            "type": "StaticItem",
+            "style": null,
+            "text": "Toţi oamenii sunt",
+            "examples": null
+          },
+          {
+            "type": "DynamicItem",
+            "style": "single-line element-vertical-align",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "ContainerItem",
+        "style": "inline-elem element-margins",
+        "items": [
+          {
+            "type": "StaticItem",
+            "style": null,
+            "text": "Un cămin trebuie să fie",
+            "examples": null
+          },
+          {
+            "type": "DynamicItem",
+            "style": "single-line element-vertical-align",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "ContainerItem",
+        "style": "inline-elem element-margins",
+        "items": [
+          {
+            "type": "StaticItem",
+            "style": null,
+            "text": "Eu sunt",
+            "examples": null
+          },
+          {
+            "type": "DynamicItem",
+            "style": "single-line element-vertical-align",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "ContainerItem",
+        "style": "inline-elem element-margins",
+        "items": [
+          {
+            "type": "StaticItem",
+            "style": null,
+            "text": "Viaţa mea este",
+            "examples": null
+          },
+          {
+            "type": "DynamicItem",
+            "style": "single-line element-vertical-align",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "ContainerItem",
+        "style": "inline-elem element-margins",
+        "items": [
+          {
+            "type": "StaticItem",
+            "style": "inline-elem",
+            "text": "Lumea nu va fi niciodată",
+            "examples": null
+          },
+          {
+            "type": "DynamicItem",
+            "style": "single-line element-vertical-align inline-elem",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "ContainerItem",
+        "style": "inline-elem element-margins",
+        "items": [
+          {
+            "type": "StaticItem",
+            "style": "inline-elem",
+            "text": "Lucrurile bune, de genul ",
+            "examples": null
+          },
+          {
+            "type": "DynamicItem",
+            "style": "single-line element-vertical-align inline-elem",
+            "text": ""
+          },
+          {
+            "type": "StaticItem",
+            "style": "inline-elem",
+            "text": ", nu mi se vor întâmpla niciodată mie",
+            "examples": null
+          }
+        ]
+      },
+      {
+        "type": "StaticItem",
+        "style": "bold",
+        "text": "\"Cele rele să se spele, cele bune să se-adune\"",
+        "examples": null
+      },
+      {
+        "type": "StaticItem",
+        "style": "bold italic",
+        "text": "Căci, dacă este cineva în Hristos, este o făptură nouă. Cele vechi s-au dus: iată că toate lucrurile s-au făcut noi (2 Corinteni 5:17).",
+        "examples": null
+      },
+      {
+        "type": "StaticItem",
+        "style": null,
+        "text": "A venit vremea să te înzestrezi cu un nou set de percepţii, înlocuieşte fiecare idee negativă exprimată mai sus cu opusul ei. Dacă sunt unele afirmaţii pozitive pe care ai dori să le păstrezi, scrie-le într-o formă şi mai optimistă.",
+        "examples": null
+      },
+      {
+        "type": "ContainerItem",
+        "style": null,
+        "items": [
+          {
+            "type": "StaticItem",
+            "style": null,
+            "text": "Câteva percepţii noi despre viaţă, în general, sunt ",
+            "examples": "(de exemplu: cred că voi avea parte şi de bucurii, şi de dureri în viaţa mea; deoarece Dumnezeu e un Tată iubitor, nu trebuie să-mi fie teamă de ce mă aşteaptă)"
+          },
+          {
+            "type": "DynamicItem",
+            "style": "multi-line",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "ContainerItem",
+        "style": null,
+        "items": [
+          {
+            "type": "StaticItem",
+            "style": null,
+            "text": "Câteva percepţii noi despre ceilalţi oameni sunt ",
+            "examples": "(de exemplu: deşi am avut câteva experienţe nefericite, mulţi oameni au fost buni şi iubitori cu mine; pot face alegeri înţelepte în relaţiile mele)"
+          },
+          {
+            "type": "DynamicItem",
+            "style": "multi-line",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "ContainerItem",
+        "style": null,
+        "items": [
+          {
+            "type": "StaticItem",
+            "style": null,
+            "text": "Câteva percepţii noi despre personalitatea, talentele şi aspectul meu fizic sunt ",
+            "examples": "(de exemplu: am multe calităţi; sunt o persoană valoroasă şi părerile mele contează)"
+          },
+          {
+            "type": "DynamicItem",
+            "style": "multi-line",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "StaticItem",
+        "style": null,
+        "text": "Completează următoarele afirmaţii astfel, încât ele să reflecte noile tale percepţii.",
+        "examples": null
+      },
+      {
+        "type": "ContainerItem",
+        "style": "inline-elem element-margins",
+        "items": [
+          {
+            "type": "StaticItem",
+            "style": null,
+            "text": "Unele femeile sunt",
+            "examples": null
+          },
+          {
+            "type": "DynamicItem",
+            "style": "single-line element-vertical-align",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "ContainerItem",
+        "style": "inline-elem element-margins",
+        "items": [
+          {
+            "type": "StaticItem",
+            "style": null,
+            "text": "Unii bărbaţi sunt",
+            "examples": null
+          },
+          {
+            "type": "DynamicItem",
+            "style": "single-line element-vertical-align",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "ContainerItem",
+        "style": "inline-elem element-margins",
+        "items": [
+          {
+            "type": "StaticItem",
+            "style": null,
+            "text": "Dumnezeu este",
+            "examples": null
+          },
+          {
+            "type": "DynamicItem",
+            "style": "single-line element-vertical-align",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "ContainerItem",
+        "style": "inline-elem element-margins",
+        "items": [
+          {
+            "type": "StaticItem",
+            "style": null,
+            "text": "Unii oameni sunt",
+            "examples": null
+          },
+          {
+            "type": "DynamicItem",
+            "style": "single-line element-vertical-align",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "ContainerItem",
+        "style": "inline-elem element-margins",
+        "items": [
+          {
+            "type": "StaticItem",
+            "style": null,
+            "text": "Un cămin poate fi",
+            "examples": null
+          },
+          {
+            "type": "DynamicItem",
+            "style": "single-line element-vertical-align",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "ContainerItem",
+        "style": "inline-elem element-margins",
+        "items": [
+          {
+            "type": "StaticItem",
+            "style": null,
+            "text": "Eu sunt",
+            "examples": null
+          },
+          {
+            "type": "DynamicItem",
+            "style": "single-line element-vertical-align",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "ContainerItem",
+        "style": "inline-elem element-margins",
+        "items": [
+          {
+            "type": "StaticItem",
+            "style": null,
+            "text": "Viaţa mea este",
+            "examples": null
+          },
+          {
+            "type": "DynamicItem",
+            "style": "single-line element-vertical-align",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "ContainerItem",
+        "style": "inline-elem element-margins",
+        "items": [
+          {
+            "type": "StaticItem",
+            "style": null,
+            "text": "Lumea poate fi",
+            "examples": null
+          },
+          {
+            "type": "DynamicItem",
+            "style": "single-line element-vertical-align",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "ContainerItem",
+        "style": "inline-elem element-margins",
+        "items": [
+          {
+            "type": "StaticItem",
+            "style": null,
+            "text": "Lucrurile bune, de genul ",
+            "examples": null
+          },
+          {
+            "type": "DynamicItem",
+            "style": "single-line element-vertical-align",
+            "text": ""
+          },
+          {
+            "type": "StaticItem",
+            "style": null,
+            "text": ", mi se vor întâmpla și mie",
+            "examples": null
+          }
+        ]
+      },
+      {
+        "type": "StaticItem",
+        "style": "h5",
+        "text": "Crede ce îţi spun noile mesaje",
+        "examples": null
+      },
+      {
+        "type": "StaticItem",
+        "style": null,
+        "text": "O dată ce ţi-ai format o serie de mesaje noi, trebuie să ţi le repeţi iar şi iar. S-ar putea să mai treacă o vreme până când ele ţi se vor părea reale. Vechile percepţii, pe care te străduieşti acum să le înlături, nu au apărut peste noapte; ele s-au format şi s-au întărit în cursul anilor lungi, petrecuţi într-un mediu familial nesănătos. Acum trebuie să faci multe exerciţii pentru a întări noile mesaje astfel, ca ele să devină la fel de importante pentru tine cum au fost cele vechi.",
+        "examples": null
+      },
+      {
+        "type": "StaticItem",
+        "style": null,
+        "text": "Rescrie următoarele mesaje negative în formă pozitivă:",
+        "examples": null
+      },
+      {
+        "type": "ContainerItem",
+        "style": null,
+        "items": [
+          {
+            "type": "StaticItem",
+            "style": null,
+            "text": "Nu mă simt bine decât dacă mă aprobă toţi.",
+            "examples": null
+          },
+          {
+            "type": "DynamicItem",
+            "style": "single-line",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "ContainerItem",
+        "style": null,
+        "items": [
+          {
+            "type": "StaticItem",
+            "style": null,
+            "text": "Dumnezeu nu mă iubeşte decât dacă fac ceva pentru a-I câştiga iubirea.",
+            "examples": null
+          },
+          {
+            "type": "DynamicItem",
+            "style": "single-line",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "ContainerItem",
+        "style": null,
+        "items": [
+          {
+            "type": "StaticItem",
+            "style": null,
+            "text": "Trebuie să fiu perfect.",
+            "examples": null
+          },
+          {
+            "type": "DynamicItem",
+            "style": "single-line",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "ContainerItem",
+        "style": null,
+        "items": [
+          {
+            "type": "StaticItem",
+            "style": null,
+            "text": "Un bun creştin trebuie să vină în întâmpinarea dorinţelor tuturor.",
+            "examples": null
+          },
+          {
+            "type": "DynamicItem",
+            "style": "single-line",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "ContainerItem",
+        "style": null,
+        "items": [
+          {
+            "type": "StaticItem",
+            "style": null,
+            "text": "Mor, dacă trebuie să mă confrunt cu suferinţa mea.",
+            "examples": null
+          },
+          {
+            "type": "DynamicItem",
+            "style": "single-line",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "ContainerItem",
+        "style": null,
+        "items": [
+          {
+            "type": "StaticItem",
+            "style": null,
+            "text": "Tovarăşul meu de viaţă trebuie să vină în întâmpinarea tuturor dorinţelor mele.",
+            "examples": null
+          },
+          {
+            "type": "DynamicItem",
+            "style": "single-line",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "ContainerItem",
+        "style": null,
+        "items": [
+          {
+            "type": "StaticItem",
+            "style": null,
+            "text": "Manifestarea sentimentelor e un semn de slăbiciune.",
+            "examples": null
+          },
+          {
+            "type": "DynamicItem",
+            "style": "single-line",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "ContainerItem",
+        "style": null,
+        "items": [
+          {
+            "type": "StaticItem",
+            "style": null,
+            "text": "N-ar trebui să fiu furios, rănit sau deprimat.",
+            "examples": null
+          },
+          {
+            "type": "DynamicItem",
+            "style": "single-line",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "ContainerItem",
+        "style": null,
+        "items": [
+          {
+            "type": "StaticItem",
+            "style": null,
+            "text": "Lumea ar fi mai bună fără mine.",
+            "examples": null
+          },
+          {
+            "type": "DynamicItem",
+            "style": "single-line",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "ContainerItem",
+        "style": null,
+        "items": [
+          {
+            "type": "StaticItem",
+            "style": null,
+            "text": "Familia mea nu mai poate face faţă sentimentelor mele negative.",
+            "examples": null
+          },
+          {
+            "type": "DynamicItem",
+            "style": "single-line",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "ContainerItem",
+        "style": null,
+        "items": [
+          {
+            "type": "StaticItem",
+            "style": null,
+            "text": "Nu voi fi niciodată fericit.",
+            "examples": null
+          },
+          {
+            "type": "DynamicItem",
+            "style": "single-line",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "ContainerItem",
+        "style": null,
+        "items": [
+          {
+            "type": "StaticItem",
+            "style": null,
+            "text": "Nu mă voi simţi niciodată ocrotit şi în siguranţă.",
+            "examples": null
+          },
+          {
+            "type": "DynamicItem",
+            "style": "single-line",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "ContainerItem",
+        "style": null,
+        "items": [
+          {
+            "type": "StaticItem",
+            "style": null,
+            "text": "Trebuie să mă descurc singur în viaţă.",
+            "examples": null
+          },
+          {
+            "type": "DynamicItem",
+            "style": "single-line",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "ContainerItem",
+        "style": null,
+        "items": [
+          {
+            "type": "StaticItem",
+            "style": null,
+            "text": "Nu pot avea încredere în nimeni.",
+            "examples": null
+          },
+          {
+            "type": "DynamicItem",
+            "style": "single-line",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "ContainerItem",
+        "style": null,
+        "items": [
+          {
+            "type": "StaticItem",
+            "style": null,
+            "text": "Lumea mea se va prăbuşi, dacă îmi îngădui vreun sentiment.",
+            "examples": null
+          },
+          {
+            "type": "DynamicItem",
+            "style": "single-line",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "ContainerItem",
+        "style": null,
+        "items": [
+          {
+            "type": "StaticItem",
+            "style": null,
+            "text": "Nu am dreptul să mă enervez.",
+            "examples": null
+          },
+          {
+            "type": "DynamicItem",
+            "style": "single-line",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "ContainerItem",
+        "style": null,
+        "items": [
+          {
+            "type": "StaticItem",
+            "style": null,
+            "text": "Eu nu contez ca om.",
+            "examples": null
+          },
+          {
+            "type": "DynamicItem",
+            "style": "single-line",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "ContainerItem",
+        "style": null,
+        "items": [
+          {
+            "type": "StaticItem",
+            "style": null,
+            "text": "Nimănui nu-i pasă de mine.",
+            "examples": null
+          },
+          {
+            "type": "DynamicItem",
+            "style": "single-line",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "ContainerItem",
+        "style": null,
+        "items": [
+          {
+            "type": "StaticItem",
+            "style": null,
+            "text": "Viaţa mea a fost complet inutilă.",
+            "examples": null
+          },
+          {
+            "type": "DynamicItem",
+            "style": "single-line",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "StaticItem",
+        "style": null,
+        "text": "Învaţă să ai aşteptări realiste",
+        "examples": null
+      },
+      {
+        "type": "StaticItem",
+        "style": null,
+        "text": "Lumea nu e un loc perfect. Vor exista întotdeauna suferinţă şi durere, chiar şi după ce te vindeci de codependenţă. Noile tale percepţii trebuie să includă şi noi strategii pentru a face faţă evenimentelor dureroase pe care ţi le rezervă viitorul, fără să ajungi la alte percepţii negative. E important să înveţi să treci prin dezamăgiri fără să te învinuieşti pe tine însuţi sau să creezi mesaje negative vătămătoare.",
+        "examples": null
+      },
+      {
+        "type": "StaticItem",
+        "style": null,
+        "text": "Aşteptările mele, în ceea ce mă priveşte, includ următoarele:",
+        "examples": null
+      },
+      {
+        "type": "ListItem",
+        "style": null,
+        "items": [
+          {
+            "type": "ContainerItem",
+            "style": "inline-elem",
+            "items": [
+              {
+                "type": "DynamicItem",
+                "style": "single-char element-vertical-align",
+                "text": ""
+              },
+              {
+                "type": "StaticItem",
+                "style": null,
+                "text": "Nu voi face greşeli fundamentale.",
+                "examples": null
+              }
+            ]
+          },
+          {
+            "type": "ContainerItem",
+            "style": "inline-elem",
+            "items": [
+              {
+                "type": "DynamicItem",
+                "style": "single-char element-vertical-align",
+                "text": ""
+              },
+              {
+                "type": "StaticItem",
+                "style": null,
+                "text": "Trebuie să vin în întâmpinarea nevoilor tuturor.",
+                "examples": null
+              }
+            ]
+          },
+          {
+            "type": "ContainerItem",
+            "style": "inline-elem",
+            "items": [
+              {
+                "type": "DynamicItem",
+                "style": "single-char element-vertical-align",
+                "text": ""
+              },
+              {
+                "type": "StaticItem",
+                "style": null,
+                "text": "Dacă oamenii se înfurie pe mine, nu trebuie să fug şi să mă ascund.",
+                "examples": null
+              }
+            ]
+          },
+          {
+            "type": "ContainerItem",
+            "style": "inline-elem",
+            "items": [
+              {
+                "type": "DynamicItem",
+                "style": "single-char element-vertical-align",
+                "text": ""
+              },
+              {
+                "type": "StaticItem",
+                "style": null,
+                "text": "Îi voi proteja de suferinţă pe cei din jurul meu.",
+                "examples": null
+              }
+            ]
+          },
+          {
+            "type": "ContainerItem",
+            "style": "inline-elem",
+            "items": [
+              {
+                "type": "DynamicItem",
+                "style": "single-char element-vertical-align",
+                "text": ""
+              },
+              {
+                "type": "StaticItem",
+                "style": null,
+                "text": "Voi face tot ce pot pentru cei la care ţin, dar nu voi putea să le fac viaţa perfectă.",
+                "examples": null
+              }
+            ]
+          },
+          {
+            "type": "ContainerItem",
+            "style": "inline-elem",
+            "items": [
+              {
+                "type": "DynamicItem",
+                "style": "single-char element-vertical-align",
+                "text": ""
+              },
+              {
+                "type": "StaticItem",
+                "style": null,
+                "text": "Pot obţine aprobarea tuturor.",
+                "examples": null
+              }
+            ]
+          },
+          {
+            "type": "ContainerItem",
+            "style": "inline-elem",
+            "items": [
+              {
+                "type": "DynamicItem",
+                "style": "single-char element-vertical-align",
+                "text": ""
+              },
+              {
+                "type": "StaticItem",
+                "style": null,
+                "text": "Nu voi dezamăgi pe nimeni niciodată.",
+                "examples": null
+              }
+            ]
+          },
+          {
+            "type": "ContainerItem",
+            "style": "inline-elem",
+            "items": [
+              {
+                "type": "DynamicItem",
+                "style": "single-char element-vertical-align",
+                "text": ""
+              },
+              {
+                "type": "StaticItem",
+                "style": null,
+                "text": "Nimeni nu se va mai înfuria pe mine.",
+                "examples": null
+              }
+            ]
+          },
+          {
+            "type": "ContainerItem",
+            "style": "inline-elem",
+            "items": [
+              {
+                "type": "DynamicItem",
+                "style": "single-char element-vertical-align",
+                "text": ""
+              },
+              {
+                "type": "StaticItem",
+                "style": null,
+                "text": "Pot să am şi zile mai proaste.",
+                "examples": null
+              }
+            ]
+          },
+          {
+            "type": "ContainerItem",
+            "style": "inline-elem",
+            "items": [
+              {
+                "type": "DynamicItem",
+                "style": "single-char element-vertical-align",
+                "text": ""
+              },
+              {
+                "type": "StaticItem",
+                "style": null,
+                "text": "Nu trebuie să fiu perfect",
+                "examples": null
+              }
+            ]
+          },
+          {
+            "type": "ContainerItem",
+            "style": "inline-elem",
+            "items": [
+              {
+                "type": "DynamicItem",
+                "style": "single-char element-vertical-align",
+                "text": ""
+              },
+              {
+                "type": "StaticItem",
+                "style": null,
+                "text": "Voi face tot posibilul ca să fiu un bun prieten, dar nu mă aştept ca toţi să mă placă.",
+                "examples": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "StaticItem",
+        "style": "inline-elem",
+        "text": "Aşteptările mele, în ceea ce-i priveşte pe cei apropiaţi mie, sunt:",
+        "examples": null
+      },
+      {
+        "type": "ListItem",
+        "style": null,
+        "items": [
+          {
+            "type": "ContainerItem",
+            "style": "inline-elem",
+            "items": [
+              {
+                "type": "DynamicItem",
+                "style": "single-char element-vertical-align",
+                "text": ""
+              },
+              {
+                "type": "StaticItem",
+                "style": null,
+                "text": "Să fie întotdeauna receptivi la nevoile mele.",
+                "examples": null
+              }
+            ]
+          },
+          {
+            "type": "ContainerItem",
+            "style": "inline-elem",
+            "items": [
+              {
+                "type": "DynamicItem",
+                "style": "single-char element-vertical-align",
+                "text": ""
+              },
+              {
+                "type": "StaticItem",
+                "style": null,
+                "text": "Sunt neajutoraţi şi nu pot face nimic fără mine.",
+                "examples": null
+              }
+            ]
+          },
+          {
+            "type": "ContainerItem",
+            "style": "inline-elem",
+            "items": [
+              {
+                "type": "DynamicItem",
+                "style": "single-char element-vertical-align",
+                "text": ""
+              },
+              {
+                "type": "StaticItem",
+                "style": null,
+                "text": "Nu pot fi niciodată furioşi pe mine.",
+                "examples": null
+              }
+            ]
+          },
+          {
+            "type": "ContainerItem",
+            "style": "inline-elem",
+            "items": [
+              {
+                "type": "DynamicItem",
+                "style": "single-char element-vertical-align",
+                "text": ""
+              },
+              {
+                "type": "StaticItem",
+                "style": null,
+                "text": "Sunt răspunzători de viaţa lor şi le voi face rău dacă voi încerca să am grijă eu de toate.",
+                "examples": null
+              }
+            ]
+          },
+          {
+            "type": "ContainerItem",
+            "style": "inline-elem",
+            "items": [
+              {
+                "type": "DynamicItem",
+                "style": "single-char element-vertical-align",
+                "text": ""
+              },
+              {
+                "type": "StaticItem",
+                "style": null,
+                "text": "Să vină în întâmpinarea unora din dorinţele mele.",
+                "examples": null
+              }
+            ]
+          },
+          {
+            "type": "ContainerItem",
+            "style": "inline-elem",
+            "items": [
+              {
+                "type": "DynamicItem",
+                "style": "single-char element-vertical-align",
+                "text": ""
+              },
+              {
+                "type": "StaticItem",
+                "style": null,
+                "text": "Dacă se înfurie pe mine, acest lucru nu înseamnă sfârşitul lumii sau al relaţiei noastre.",
+                "examples": null
+              }
+            ]
+          },
+          {
+            "type": "ContainerItem",
+            "style": "inline-elem",
+            "items": [
+              {
+                "type": "DynamicItem",
+                "style": "single-char element-vertical-align",
+                "text": ""
+              },
+              {
+                "type": "StaticItem",
+                "style": null,
+                "text": "Relaţia noastră va avea suişurile şi coborâşurile ei, dar noi vom rămâne credincioşi unul altuia.",
+                "examples": null
+              }
+            ]
+          },
+          {
+            "type": "ContainerItem",
+            "style": "inline-elem",
+            "items": [
+              {
+                "type": "DynamicItem",
+                "style": "single-char element-vertical-align",
+                "text": ""
+              },
+              {
+                "type": "StaticItem",
+                "style": null,
+                "text": "Aşteptările lor, în ceea ce mă priveşte, sunt întotdeauna corecte.",
+                "examples": null
+              }
+            ]
+          },
+          {
+            "type": "ContainerItem",
+            "style": "inline-elem",
+            "items": [
+              {
+                "type": "DynamicItem",
+                "style": "single-char element-vertical-align",
+                "text": ""
+              },
+              {
+                "type": "StaticItem",
+                "style": null,
+                "text": "Părerile mele contează în aceeaşi măsură ca şi ale lor.",
+                "examples": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "StaticItem",
+        "style": null,
+        "text": "Răspunsurile corecte din prima grupă sunt: 3, 5, 9, 10 şi 11. în a doua grupă: 4, 5, 6, 7 şi 9.",
+        "examples": null
+      },
+      {
+        "type": "StaticItem",
+        "style": null,
+        "text": "Arată listele cu vechile şi noile tale percepţii unui prieten de încredere sau grupului de terapie. Alege o persoană care să fíe alături de tine în procesul de remodelare a percepţiilor tale, astfel ca acestea să reflecte o atitudine pozitivă faţă de viaţă.",
+        "examples": null
+      },
+      {
+        "type": "StaticItem",
+        "style": null,
+        "text": "Poate că îţi va fi de folos să scrii noile mesaje pe fişe separate şi să ţi le pui la îndemână, prin casă, în locuri unde să le vezi mereu. Repetă-le, iarăşi şi iarăşi, în minte, până când ele vor deveni cu adevărat parte din tine.",
+        "examples": null
+      },
+      {
+        "type": "StaticItem",
+        "style": "bold italic",
+        "text": "Încolo, fraţii mei, tot ce este adevărat, tot ce este vrednic de cinste, tot ce este drept, tot ce este curat, tot ce este vrednic de iubit, tot ce este vrednic de primit, orice faptă bună şi orice laudă, aceea să vă însufleţească . . . Şi Dumnezeul păcii va fi cu voi (Filipeni 4:8-9b)",
+        "examples": null
+      }
+    ]
+  }
+]

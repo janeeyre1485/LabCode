@@ -1,7 +1,6 @@
-<p>{{username}}</p>
 <div *ngIf="chapter != undefined" class="container">
   <form #chapterForm="ngForm" (ngSubmit)="save(chapter)">
-    <h2>{{chapter.title}}</h2>
+    <h2 class="text-center">{{chapter.title}}</h2>
     <div *ngFor="let item of chapter.items">
       <static-item *ngIf="item.type == 'StaticItem'" [staticItem]="item"></static-item>
       <dynamic-item *ngIf="item.type == 'DynamicItem'" [dynamicItem]="item"></dynamic-item>
